@@ -1,5 +1,5 @@
 #include <stdio.h>
-main(){
+int main() {
 
     /*    estado (string)
     codigo (string)
@@ -25,22 +25,22 @@ main(){
 
     // COLETA DE DADOS DA CARTA PRIMEIRA
     
-    printf("Super Trunfo de Cidades!\n");
+    printf("Super Trunfo de Cidades!\n ");
 
         printf("Digite o estado: ");
+        fgets(estado_primeiro, 30, stdin); 
 
-        scanf("%s", estado_primeiro);
         printf("Digite o código: ");    
+        fgets(codigo_primeiro, 10, stdin); 
 
-        scanf("%s", codigo_primeiro);    
         printf("Digite o nome da cidade: ");   
+        fgets( nome_cidade_primeiro, 50, stdin);
 
-        scanf("%s", nome_cidade_primeiro);
         printf("Digite a população: ");    
-
         scanf("%d", &populacao_primeiro);
+        
         printf("Digite o PIB: ");
-        scanf("%f", &pib_per_capita_primeiro); 
+        scanf("%f", &pib_primeiro); 
 
         printf("Digite a área: ");  
         scanf("%f", &area_primeiro); 
