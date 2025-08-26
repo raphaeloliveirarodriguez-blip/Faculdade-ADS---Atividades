@@ -55,7 +55,7 @@ int main() {
 
         // EXIBIÇÃO DOS DADOS DA CARTA PRIMEIRA
 
-            printf("\n--- Cartão Super Trunfo ---\n");
+            printf("\n--- Cartão Super Trunfo ---\n");mhg
             printf("Estado: %s\n", estado_primeiro);
             printf("Código: %s\n", codigo_primeiro);
             printf("Nome da Cidade: %s\n", nome_cidade_primeiro);
